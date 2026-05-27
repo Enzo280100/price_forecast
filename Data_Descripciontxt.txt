@@ -1,0 +1,26 @@
+Para la realización del test de recruiting se deben utilizar exclusivamente el de Perfume_Recruiting.sv.
+
+El fichero contiene un dataset de perfumes respectivamente junto con su histórico semanal de precios 
+y ventas.
+
+Las columnas presentes en el dataset son las siguientes:
+
+	row_id: Identificador único de cada producto del dataset.
+
+	brand: Marca del perfume.
+
+	title: Título del listado.
+
+	type: Tipo de perfume (por ejemplo, Eau de Parfum, Eau de Toilette).
+
+	itemLocation: Ubicación del producto.
+
+	available: Número de unidades disponibles.
+
+	availableText: Descripción textual de la disponibilidad.
+
+	metric: Indica la métrica representada en las columnas de fechas, asociada a precio o ventas.
+
+	Columnas de fecha (YYYY-MM-DD): Valores semanales correspondientes a la métrica indicada en la columna metric, para cada semana entre 2022-09-26 y 2023-04-10.
+
+	G: valor Boolean indicando si es perfume diseñado para hombres o mujeres
